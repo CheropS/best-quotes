@@ -1,9 +1,20 @@
 <div>
     <h1>Best Quotes</h1>
-    <ul>
-      <li *ngFor='let quote of quotes'>
-        {{ quote.author }}
-        {{ quote.quote}}
-      </li>
-    </ul>
+    
   </div>
+<div class="row">
+  <div class="col-md-6">
+<div>
+  <ul *ngFor='let quote of quotes' class="single-quotes">
+    <li >
+      {{ quote.author }}
+      
+    </li>
+    "{{ quote.quote}}"
+  </ul>
+</div>
+  </div>
+  <div class="col-md-6">
+
+  </div>
+</div>
