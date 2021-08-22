@@ -2,3 +2,9 @@
 border: solid 1px black;
 border-radius: 10px;
 }
+.single-quotes li {
+    list-style: none;
+}
+h1 {
+    color: blue;
+}
