@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { globalAgent } from 'http';
+// import { globalAgent } from 'http';
 import { Quotes } from '../quotes';
 
 @Component({

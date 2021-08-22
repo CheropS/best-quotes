@@ -1,6 +1,7 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+The project's purpose is to help people create and read quotes from people across the world. By adding quotes, you are working the forms that has been linked to the project. 
 
 ## Development server
 
@@ -25,3 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Author 
+The project has been created by Sharon Cherop for Moringa School. In case of any further information, contact @sharrycherop on twitter. 
