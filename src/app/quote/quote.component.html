@@ -4,9 +4,9 @@
 <div class="row">
   <div class="col-md-6">
 <div>
-  <ul *ngFor='let quote of quotes' class="single-quotes">
+  <ul *ngFor='let quote of quotes;let i = index' class="single-quotes">
     <li >
-      <b>{{ quote.author }}</b>
+      <b>{{ quote.author }}</b> written on {{quote.completeDate}}
       
     </li>
     "{{ quote.quote}}"
