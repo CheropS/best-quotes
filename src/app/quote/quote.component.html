@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="container">
     <h1>Best Quotes</h1>    
   </div>
@@ -7,11 +8,13 @@
   <ul *ngFor='let quote of quotes;let i = index' class="single-quotes">
     <li >
       <p><b>{{ quote.author }}</b></p>
-      
     </li>
-    "{{ quote.quote}}"
-    <p>Published by: <span style="font-style: italic;">{{ quote.description }}</span> on {{ quote.dateCreated |date }}</p>
-  </ul>
+    "{{ quote.quote }}"
+    <p>Published by: <span style="font-style: italic;">{{ quote.description }}</span>, {{ quote.dateCreated |dateCount }} days ago.</p>
+    <button (click)='likes()' style="font-size:14px" class="btn btn-success"> Upvote<i class="fa fa-thumbs-up"></i></button>  
+      <button (click)="dislike()" style="font-size:14px" class="btn btn-danger dislike"> Downvote<i class="fa fa-thumbs-down"></i></button> 
+      <p *ngIf='votes >0'>Number of Votes accumulated: {{votes}}</p>
+    </ul>
  
 </div>
   </div>

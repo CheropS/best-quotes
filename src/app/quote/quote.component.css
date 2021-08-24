@@ -1,6 +1,7 @@
 .single-quotes{
 border: solid 1px black;
 border-radius: 10px;
+background-color: darkcyan;
 }
 .single-quotes li {
     list-style: none;
